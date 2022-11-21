@@ -31,17 +31,11 @@ Some of the typical use cases for approaching this software are:
 
 ![Image mindmajix.com](https://cdn.mindmajix.com/blog/images/etl-071119.png)
 
-- **Extract:** 
+- **Extract:**  The data is extracted from different sources of data. Common data-source formats include relational databases, XML and flat files, Information Management System (IMS) or other data structures. An instant data validation is performed to confirm whether the data pulled from the sources have the correct values in a given domain. 
 
-The data is extracted from different sources of data. Common data-source formats include relational databases, XML and flat files, Information Management System (IMS) or other data structures. An instant data validation is performed to confirm whether the data pulled from the sources have the correct values in a given domain. 
+- **Transform:** A set of rules or logical functions like cleaning of data are applied to the extracted data in order to prepare it for loading into a target data source. Cleaning of data implies passing only the "proper" data into the target source. There are many transformation types that can be applied to data as per the business need. Some of them can be column or row-based, coded and calculated values, key-based, joining different data sources, etc. 
 
-- **Transform:**
-
-A set of rules or logical functions like cleaning of data are applied to the extracted data in order to prepare it for loading into a target data source. Cleaning of data implies passing only the "proper" data into the target source. There are many transformation types that can be applied to data as per the business need. Some of them can be column or row-based, coded and calculated values, key-based, joining different data sources, etc. 
-
-- **Load:** 
-
-The data is simply loaded into the target data source. 
+- **Load:** The data is simply loaded into the target data source. 
 
 ### Need of Informatica
 Informatica comes to the picture wherever we have a data system available and at the backend we want to perform certain operations on the data. It can be like cleaning up of data, modifying the data, etc. based on certain set of rules or simply loading of bulk data from one system to another.
