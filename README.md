@@ -3,9 +3,17 @@
 ### What is Informatica
 Informatica is a data integration tool based on ETL architecture. It provides data integration software and services for various businesses, industries and government organizations including telecommunication, health care, financial and insurance services. When we say Informatica, it refers to the Informatica PowerCenter tool for ETL.
 
+The latest version of Informatica PowerCenter available is 9.6.0. The different editions for the PowerCenter are
+
+- Standard edition
+- Advanced edition
+- Premium edition
+
+The popular clients using Informatica Power center as a data integration tool are U.S Air Force, Allianz, Fannie Mae, ING, Samsung, etc. The popular tools available in the market in competition to Informatica are IBM Datastage, Oracle OWB, Microsoft SSIS and Ab Initio.
+
 ### Data integration
 Data integration is the process of combining data from different sources into a single, unified view. Integration begins with the ingestion process, and includes steps such as cleansing, ETL mapping, and transformation. Data integration ultimately enables analytics tools to produce effective, actionable business intelligence.
-__For example__ , you can connect to an SQL Server Database and Oracle Database both and can integrate the data into a third system.
+_For example_ , you can connect to an SQL Server Database and Oracle Database both and can integrate the data into a third system.
 
 ### Data ingestion
 Data ingestion is the process of transporting data from one or more sources to a target site for further processing and analysis.
@@ -34,3 +42,6 @@ A set of rules or logical functions like cleaning of data are applied to the ext
 - **Load:** 
 
 The data is simply loaded into the target data source. 
+
+### Need of Informatica
+Informatica comes to the picture wherever we have a data system available and at the backend we want to perform certain operations on the data. It can be like cleaning up of data, modifying the data, etc. based on certain set of rules or simply loading of bulk data from one system to another.
