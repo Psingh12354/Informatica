@@ -11,6 +11,10 @@ The latest version of Informatica PowerCenter available is 9.6.0. The different 
 
 The popular clients using Informatica Power center as a data integration tool are U.S Air Force, Allianz, Fannie Mae, ING, Samsung, etc. The popular tools available in the market in competition to Informatica are IBM Datastage, Oracle OWB, Microsoft SSIS and Ab Initio.
 
+### Data validation
+
+Data validation is the practice of checking the integrity, accuracy and structure of data before it is used for a business operation. Business operation can be like ETL jobs.
+
 ### Data integration
 Data integration is the process of combining data from different sources into a single, unified view. Integration begins with the ingestion process, and includes steps such as cleansing, ETL mapping, and transformation. Data integration ultimately enables analytics tools to produce effective, actionable business intelligence.
 _For example_ , you can connect to an SQL Server Database and Oracle Database both and can integrate the data into a third system.
