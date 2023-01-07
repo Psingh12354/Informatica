@@ -46,4 +46,4 @@ Informatica comes to the picture wherever we have a data system available and at
 
 ### Udemy
 
-- **Data Mart-:** Multiple Data Source **=>** Data Warehouse **=>** split(Sales,Product). So, usuallt data mart is project specified.
+- **Data Mart-:** Multiple Data Source _=>_ Data Warehouse **=>** split(Sales,Product). So, usuallt data mart is project specified.
