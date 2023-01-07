@@ -1,9 +1,9 @@
 <h1 align='center'>Informatica</h1>
 
 ### What is Informatica
-Informatica is a data integration tool based on ETL architecture. It provides data integration software and services for various businesses, industries and government organizations including telecommunication, health care, financial and insurance services. When we say Informatica, it refers to the Informatica PowerCenter tool for ETL.
+Informatica is a company which offers data integration tool know as Informatica based on ETL architecture. It provides data integration software and services for various businesses, industries and government organizations including telecommunication, health care, financial and insurance services. When we say Informatica, it refers to the Informatica PowerCenter tool for ETL.
 
-The latest version of Informatica PowerCenter available is 9.6.0. The different editions for the PowerCenter are
+The latest version of Informatica PowerCenter available is 10.5.2, The different editions for the PowerCenter are
 
 - Standard edition
 - Advanced edition
@@ -17,7 +17,7 @@ Data validation is the practice of checking the integrity, accuracy and structur
 
 ### Data integration
 Data integration is the process of combining data from different sources into a single, unified view. Integration begins with the ingestion process, and includes steps such as cleansing, ETL mapping, and transformation. Data integration ultimately enables analytics tools to produce effective, actionable business intelligence.
-_For example_ , you can connect to an SQL Server Database and Oracle Database both and can integrate the data into a third system.
+_For example_ , you can connect to an SQL Server Database or Oracle Database or flat files(2d files) or excel all of them can be integrateg and the data is stored into a third system like a data warehouse.
 
 ### Data ingestion
 Data ingestion is the process of transporting data from one or more sources to a target site for further processing and analysis.
@@ -43,3 +43,7 @@ Some of the typical use cases for approaching this software are:
 
 ### Need of Informatica
 Informatica comes to the picture wherever we have a data system available and at the backend we want to perform certain operations on the data. It can be like cleaning up of data, modifying the data, etc. based on certain set of rules or simply loading of bulk data from one system to another.
+
+### Udemy
+
+- **Data Mart-:** Multiple Data Source **=>** Data Warehouse **=>** split(Sales,Product). So, usuallt data mart is project specified.
