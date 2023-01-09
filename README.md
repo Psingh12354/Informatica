@@ -57,3 +57,10 @@ Informatica comes to the picture wherever we have a data system available and at
 
 - So when we execute source table consisting some data on Informatica side then transformation will run and output data will be shown on screen.
 - Mapping naming convention "m_databasename"
+- Expression transformation convention "exp_dataname"
+- Session convention in workflow "s_...."
+- Workflow convention "wf_...."
+- Informatica take data types from source like oracle(Int) and convert it into it's compaitable data type like decimal.
+- F(X) expression transformation.
+- So, usually we extract data from source after that applied certain transformation and load it somewhere ETL.
+- Arrange all iconic to get symbolic view.
