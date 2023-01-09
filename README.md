@@ -73,4 +73,4 @@ Informatica comes to the picture wherever we have a data system available and at
 - The domain provides two types of services, such as:
   - Service Manager: It manages domain operations such as logging, authentication, and authorization. It runs the application services on the nodes and leads users and groups.
   - Application Services: It represents the server-specific services such as repository services, reporting services, and integration services. The application service can run on different nodes based on configuration.
-- Informatica Tranformation [](https://www.javatpoint.com/informatica-transformations)
+- Informatica Tranformation [Link](https://www.javatpoint.com/informatica-transformations)
