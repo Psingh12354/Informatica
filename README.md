@@ -54,3 +54,6 @@ Informatica comes to the picture wherever we have a data system available and at
 - Monitor 
   - Gantt chart - Explanation via lines.
   - Task view - Names + Completion time.
+
+- So when we execute source table consisting some data on Informatica side then transformation will run and output data will be shown on screen.
+- Mapping naming convention "m_databasename"
