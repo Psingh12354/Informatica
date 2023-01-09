@@ -64,3 +64,13 @@ Informatica comes to the picture wherever we have a data system available and at
 - F(X) expression transformation.
 - So, usually we extract data from source after that applied certain transformation and load it somewhere ETL.
 - Arrange all iconic to get symbolic view.
+
+### Javapoint
+- The Informatica domain is the fundamental administrative unit.
+- The Informatica domain consists of nodes and services. These nodes and services are categorized into folders or sub-folders based on administration requirements and design architecture.
+- The Console web page of the Informatica administrator creates a domain that looks like a folder. Inside this folder, we can create a node with the services.
+- In the Informatica domain, a node is a logical representation of the machine. All the services and processes run inside the domain in the Informatica. Multiple nodes can be present in a single domain. A gateway node receives the request from the clients and guides them to their respective services.
+- The domain provides two types of services, such as:
+  - Service Manager: It manages domain operations such as logging, authentication, and authorization. It runs the application services on the nodes and leads users and groups.
+  - Application Services: It represents the server-specific services such as repository services, reporting services, and integration services. The application service can run on different nodes based on configuration.
+- Informatica Tranformation [](https://www.javatpoint.com/informatica-transformations)
