@@ -47,3 +47,10 @@ Informatica comes to the picture wherever we have a data system available and at
 ### Udemy
 
 - **Data Mart-:** Multiple Data Source _=>_ Data Warehouse **=>** split(Sales,Product). So, usuallt data mart is project specified.
+- Informatica client we have designer, workflow manager, workflow monitor and monitor.
+- Informatica server side we have Repository service, integration service, Domain, and Node.
+- Designer we can import source, target and create mapping(ETL jobs)
+- Whatever logic written in designer phase transfered to workflow. So, basically it create a task.
+- Monitor 
+  - Gantt chart - Explanation via lines.
+  - Task view - Names + Completion time.
