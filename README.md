@@ -74,3 +74,57 @@ Informatica comes to the picture wherever we have a data system available and at
   - Service Manager: It manages domain operations such as logging, authentication, and authorization. It runs the application services on the nodes and leads users and groups.
   - Application Services: It represents the server-specific services such as repository services, reporting services, and integration services. The application service can run on different nodes based on configuration.
 - Informatica Tranformation [Link](https://www.javatpoint.com/informatica-transformations)
+
+### Notes
+
+- Processes involved in Informatica 
+  - Setting up source in the Informatica Designer. If it coming from a Oracle DB or something which has standardized datatypes you don't need to chaAdd nge the Prec, else you need to set them up to normal standard values. 
+  - Setting up target in the Informatica Designer 
+
+- <--Creating Mappings--> It also is created inside Informatica Designer Mapping Window. 
+  - Naming convention for any mapping is as follows m_WHATEVERYOUARE DOING. 
+  - When you drag the source a source qualifier comes along with it and it is there in place cause informatica converts the datatypes into compatible datatypes in informatica. 
+  - Add the transformation layer into the mappings and drag all the source input columns into it. Add appropriate transformations and move to next step. 
+  - Load the data into the target. 
+  
+- <--Creating Workflow--> 
+  - Create Task -> Create Session (NC: s_WHATEVERYOUWANT), select the appropriate mapping. 
+  - Go to workflow -> Create a new workflow (NC: wf_WHATEVERYOUWANT) -> Drag the appropriate sessions -> Use linkers to connect the start with sessions. 
+  - In the linked workflow, select the session and added source file details will be available in the details and update the connections/properties according to your requirements. 
+  - Execute the workflow.  
+
+ 
+
+- Expression Transformation (NC: exp_COMBINING_FNAME_LNAME) You can add, copy, delete ports, change properties, apply SQL functions on the columns. 
+
+
+| Router Transformation |  Filter Transformation |
+| ----- | ------ |
+| We can specify multiple filter condition | We can specify only one filter condition | 
+| Active Transformation | Active Transformation |
+| We have option to save the records which do not satisfy the filter conditions. | We don't have option to save the records which do not satisfy the filter conditions. |
+- Router Transformation (NC: rtr_WHATEVERYOUWANT) 
+Source --> Source Qualifier --> Router --> Target 
+Multiple sets of output data based upon multiple filter conditions and a default group which does not satisfy any of the above filter criteria. 
+
+- Filter Transformation -: It filters the record based on the condition given in the filter. Router faster than filter transformation. 
+
+- Aggregator Transformation -: Is an active transformation is used to perform aggregate calculations like sum, average, etc. The integration service stores the data group and row data in aggregate cache. Can't use variable ports in here. 
+
+ - Joiner Transformation -: It is an active transformation and connected transformation that provides you the option to create joins in informatica, the joins created using joiner transformation are similar to the joins in databases. The ad of jt is thatjoins can be created for heterogeneous systems. In jt, there are two sources --> master source and detail source. 
+ 
+
+| Informatica | DB |
+| ----| ----|
+| Master Outer Join  | Right Outer Join |
+| Detail Outer Join |  Left Outer Join |
+| Full Outer Join |  Full Outer Join | 
+| Normal Join | Inner Join |
+
+- Rank Transformation -: It is an active and connected transformation, it is used to select the top or bottom rank of data. It is used to select the smallest/largest numeric/string values. The integration service caches the input data and then performs rank calc. 
+
+- Sequence Transformation -: It is a generator transformation and is passive so it does not affect the number of input rows. The generator is used to generate PK values and it's used to generate numeric sequences values like 1,2,3,4,5 etc. 2 components CURR_VAL, NEXT_VAL. 
+
+- Lookup Transformation -: It is a passive transformation used to look up a source, source qualifier, or target to get the relevant data. It's a kind of join operation in which one of the joining tables is the source data, and the other joining table is the lookup table. Two types of lookup: relational (lookup table from DB table), flat-file(any sort of file), cached/un cached, connected/unconnected. 
+
+
