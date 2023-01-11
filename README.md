@@ -103,6 +103,7 @@ Informatica comes to the picture wherever we have a data system available and at
 | We can specify multiple filter condition | We can specify only one filter condition | 
 | Active Transformation | Active Transformation |
 | We have option to save the records which do not satisfy the filter conditions. | We don't have option to save the records which do not satisfy the filter conditions. |
+| Similar to if condition | Similar as where clause in SQL |
 - Router Transformation (NC: rtr_WHATEVERYOUWANT) 
 Source --> Source Qualifier --> Router --> Target 
 Multiple sets of output data based upon multiple filter conditions and a default group which does not satisfy any of the above filter criteria. 
