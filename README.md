@@ -112,12 +112,13 @@ Multiple sets of output data based upon multiple filter conditions and a default
 
 - Aggregator Transformation -: Is an active transformation is used to perform aggregate calculations like sum, average, etc. The integration service stores the data group and row data in aggregate cache. Can't use variable ports in here. 
 
- - Joiner Transformation -: It is an active transformation and connected transformation that provides you the option to create joins in informatica, the joins created using joiner transformation are similar to the joins in databases. The ad of jt is thatjoins can be created for heterogeneous systems. In jt, there are two sources --> master source and detail source. 
+ - Joiner Transformation -: It is an active transformation and connected transformation that provides you the option to create joins in informatica, the joins created using joiner transformation are similar to the joins in databases. The ad of jt is thatjoins can be created for heterogeneous systems. In jt, there are two sources --> master source and detail source. So, the source table which has more number of record will be considered as detail source. Master source have less number of record. Master is same as ram or cache we can't put everything in it. So, usually we declare source table as the master source. Prefix is jnr_convention.
  
+ ![](https://cdn.educba.com/academy/wp-content/uploads/2020/03/Joiner-Transformation-in-Informatica.jpg)
 
 | Informatica | DB |
 | ----| ----|
-| Master Outer Join  | Right Outer Join |
+| Master Outer Join(Detail source + master source matching column) | Right Outer Join |
 | Detail Outer Join |  Left Outer Join |
 | Full Outer Join |  Full Outer Join | 
 | Normal Join | Inner Join |
