@@ -119,7 +119,7 @@ Multiple sets of output data based upon multiple filter conditions and a default
 | Informatica | DB |
 | ----| ----|
 | Master Outer Join(Detail source + master source matching column) | Right Outer Join |
-| Detail Outer Join |  Left Outer Join |
+| Detail Outer Join(Master source + detail source matching column) |  Left Outer Join |
 | Full Outer Join |  Full Outer Join | 
 | Normal Join | Inner Join |
 
