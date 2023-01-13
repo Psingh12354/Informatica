@@ -123,7 +123,7 @@ Multiple sets of output data based upon multiple filter conditions and a default
 | Full Outer Join |  Full Outer Join | 
 | Normal Join | Inner Join |
 
-- Rank Transformation -: It is an active and connected transformation, it is used to select the top or bottom rank of data. It is used to select the smallest/largest numeric/string values. The integration service caches the input data and then performs rank calc. 
+- Rank Transformation -: It is an active and connected transformation, it is used to select the top or bottom rank of data. It is used to select the smallest/largest numeric/string values. The integration service caches the input data and then performs rank calculation. 
 
 - Sequence Transformation -: It is a generator transformation and is passive so it does not affect the number of input rows. The generator is used to generate PK values and it's used to generate numeric sequences values like 1,2,3,4,5 etc. 2 components CURR_VAL, NEXT_VAL. 
 
