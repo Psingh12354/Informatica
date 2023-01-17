@@ -77,6 +77,11 @@ Informatica comes to the picture wherever we have a data system available and at
 
 ### Notes
 
+- R-> Repository
+- D-> Design
+- M-> Mapping 
+- W-> Workflow
+
 - Processes involved in Informatica 
   - Setting up source in the Informatica Designer. If it coming from a Oracle DB or something which has standardized datatypes you don't need to chaAdd nge the Prec, else you need to set them up to normal standard values. 
   - Setting up target in the Informatica Designer 
@@ -123,7 +128,7 @@ Multiple sets of output data based upon multiple filter conditions and a default
 | Full Outer Join |  Full Outer Join | 
 | Normal Join | Inner Join |
 
-- Rank Transformation -: It is an active and connected transformation, it is used to select the top or bottom rank of data. It is used to select the smallest/largest numeric/string values. The integration service caches the input data and then performs rank calculation. 
+- Rank Transformation -: It is an active and connected transformation, it is used to select the top or bottom rank of data. It is used to select the smallest/largest numeric/string values. The integration service caches the input data and then performs rank calculation. Represent in rnk_name.
 
 - Sequence Transformation -: It is a generator transformation and is passive so it does not affect the number of input rows. The generator is used to generate PK values and it's used to generate numeric sequences values like 1,2,3,4,5 etc. 2 components CURR_VAL, NEXT_VAL. 
 
