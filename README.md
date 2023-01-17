@@ -137,7 +137,7 @@ Multiple sets of output data based upon multiple filter conditions and a default
   - End value(Max value)
   - Cycle(after reaching last it can again start from the beggining)
 
-- Lookup Transformation -: It is a passive transformation used to look up a source, source qualifier, or target to get the relevant data. It's a kind of join operation in which one of the joining tables is the source data, and the other joining table is the lookup table. Two types of lookup: relational (lookup table from DB table), flat-file(any sort of file), cached/un cached, connected/unconnected. Eg-: **Employee(source(Emp_Id, Emp_Name,Dept_Id)) + Department(Lookup Table(Dept_Id,Dept_Name)) = Employee_Dept(Target(Emp_Id,Emp_Name,Dept_id,Dept_Name))**
+- Lookup Transformation -: It is a passive transformation used to look up a source, source qualifier, or target to get the relevant data. It's a kind of join operation in which one of the joining tables is the source data, and the other joining table is the lookup table. Two types of lookup: relational (lookup table from DB table), flat-file(any sort of file), cached/un cached, connected/unconnected. Eg-: **Employee(which has source table consist of(Emp_Id, Emp_Name,Dept_Id)) + Department(Lookup Table(Dept_Id,Dept_Name)) = Employee_Dept(Target(Emp_Id,Emp_Name,Dept_id,Dept_Name))**
 
 
 
