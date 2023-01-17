@@ -82,6 +82,7 @@ Informatica comes to the picture wherever we have a data system available and at
 - M-> Mapping 
 - W-> Workflow
 
+- Edit transformation we have input port, output port, variable port, and rank port.
 - Processes involved in Informatica 
   - Setting up source in the Informatica Designer. If it coming from a Oracle DB or something which has standardized datatypes you don't need to chaAdd nge the Prec, else you need to set them up to normal standard values. 
   - Setting up target in the Informatica Designer 
@@ -133,5 +134,6 @@ Multiple sets of output data based upon multiple filter conditions and a default
 - Sequence Transformation -: It is a generator transformation and is passive so it does not affect the number of input rows. The generator is used to generate PK values and it's used to generate numeric sequences values like 1,2,3,4,5 etc. 2 components CURR_VAL, NEXT_VAL. 
 
 - Lookup Transformation -: It is a passive transformation used to look up a source, source qualifier, or target to get the relevant data. It's a kind of join operation in which one of the joining tables is the source data, and the other joining table is the lookup table. Two types of lookup: relational (lookup table from DB table), flat-file(any sort of file), cached/un cached, connected/unconnected. 
+
 
 
