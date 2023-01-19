@@ -80,7 +80,7 @@ Informatica comes to the picture wherever we have a data system available and at
 - R-> Repository
 - D-> Design
 - M-> Mapping 
-- W-> Workflow
+- W-> Workflow where we compile
 
 - Edit transformation we have input port, output port, variable port, and rank port.
 - Processes involved in Informatica 
