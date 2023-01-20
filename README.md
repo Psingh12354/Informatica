@@ -146,3 +146,5 @@ Multiple sets of output data based upon multiple filter conditions and a default
     | Received input directly from the pipeline | Received input from the result of LKP |
     | Dynamic + Static Cache | Static Cache(Data not change)|
     | To identify when input is coming and output is there | A individual table |
+
+- Union Transformation-: It's use to combine data from multiple sources like flat files, sql table an produce one output to store in target table. It's active transformation and it's similar to SQL UNION ALL. 
