@@ -148,4 +148,6 @@ Multiple sets of output data based upon multiple filter conditions and a default
     | To identify when input is coming and output is there | A individual table |
 
 - Union Transformation-: It's use to combine data from multiple sources like flat files, sql table an produce one output to store in target table. It's active transformation and it's similar to SQL UNION ALL. 
-- Normalization transformation-: It's active transformation. It is use to transpose the data in columns to rows. Similar to Normalization.
+- Normalization transformation-: It's active transformation. It is use to transpose the data in columns to rows. Similar to Normalization. Naming convention nrm_abc.
+  - GCID - General column ID. It's act as a index of general occuring data.
+  - GK_Value - It increase the sequence of each input row. 
