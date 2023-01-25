@@ -151,3 +151,8 @@ Multiple sets of output data based upon multiple filter conditions and a default
 - Normalization transformation-: It's active transformation. It is use to transpose the data in columns to rows. Similar to Normalization. Naming convention nrm_abc.
   - GCID - General column ID. It's act as a index of general occuring data.
   - GK_Value - It increase the sequence of each input row. 
+- Update strategy transformation - It is use to handle insert, update and, delete operation. Whenever we are inserting something inside the target table we must know what we are entering. It is only applicable if there is primary key in target table. If there is no primary ket then we need to specifiy primary key in target defination. example-: we have target employee table and source employee table which mapping is already created. In source emp no 2 shifted to some new department so the update must be done on target table.
+  - DD_Insert(numberic value 0)
+  - DD_Update(1)
+  - DD_Delete(2)
+  - DD_Reject(3)
