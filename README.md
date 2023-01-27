@@ -156,3 +156,15 @@ Multiple sets of output data based upon multiple filter conditions and a default
   - DD_Update(1)
   - DD_Delete(2)
   - DD_Reject(3)
+- Store proc transformation-: it is use to execute stored procs through informatica ETL. It is use to perform some complex calculations. Check the status of target db before loading data into it. Determine if enough space exists in db. Two types of stored procs-:
+  - Connected -: Connected with other transformation.
+  - Unconnected -: Is the one which is not connected to other transformation.
+  
+### Stored Procs-:
+Stored Procedure Transformation in Informatica is a passive transformation and can be used in both connected and unconnected mode. The stored procedures are stored and run within the database and it also contains a pre-compiled collection of PL-SQL statements.
+
+- Inserting data into a table: A stored procedure can be used to insert data into a table, validate the data before it is inserted, and handle any errors that occur.
+- Updating data in a table: A stored procedure can be used to update existing data in a table, validate the new data before it is updated, and handle any errors that occur.
+- Deleting data from a table: A stored procedure can be used to delete data from a table, validate the data before it is deleted, and handle any errors that occur.
+
+
