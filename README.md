@@ -167,4 +167,5 @@ Stored Procedure Transformation in Informatica is a passive transformation and c
 - Updating data in a table: A stored procedure can be used to update existing data in a table, validate the new data before it is updated, and handle any errors that occur.
 - Deleting data from a table: A stored procedure can be used to delete data from a table, validate the data before it is deleted, and handle any errors that occur.
 
+- Slowly changing dimensions-: At some time we are not sure when the new update or insert operation arrives. So, to handle all that stuff's we need SCD. usually, data changes occur slowly rather regularly.
 
