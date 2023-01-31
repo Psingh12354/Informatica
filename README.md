@@ -100,7 +100,7 @@ Informatica comes to the picture wherever we have a data system available and at
   - Execute the workflow.  
 
  
-
+- Session -: A session is a set of instructions that tells the Integration Service how to move data from sources to targets. A session is a task, similar to other tasks available in the Workflow Manager. You create a session for each mapping that you want the Integration Service to run.
 - Expression Transformation (NC: exp_COMBINING_FNAME_LNAME) You can add, copy, delete ports, change properties, apply SQL functions on the columns. 
 
 
