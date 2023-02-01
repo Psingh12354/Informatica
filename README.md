@@ -169,3 +169,4 @@ Stored Procedure Transformation in Informatica is a passive transformation and c
 
 - Slowly changing dimensions-: At some time we are not sure when the new update or insert operation arrives. So, to handle all that stuff's we need SCD. usually, data changes occur slowly rather regularly.
 
+- Mapplet -: An Informatica Mapplet is a reusable object that comprises a set of transformations that can be used in multiple maps. Mapping is developed with different transformation but not reusable. Mapplet can be reused other mapping and also mapplet. Mapping is developed for what data move to target, what modification done upon that. Mapplet is developed for complex calculation used in multiple mappings.
